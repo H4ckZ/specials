@@ -1,5 +1,14 @@
 #!/bin/bash
 
+###
+# updateBlocklists.sh
+##
+#
+# Script for the automatic retrieval of ALL block lists from the "Specials" project.
+# Warning: the script is under development and can cause unintended changes to your Pihole.
+#
+##
+
 mkdir -p /tmp/svpihole
 cd /tmp/svpihole
 mkdir -p /var/log/svpihole
